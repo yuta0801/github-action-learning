@@ -12,5 +12,6 @@ jobs:
     - name: Run a multi-line script
       run: |
         pwd
-        ls
-        ls ..
+        ls -al
+        git status
+        ls -al ..
